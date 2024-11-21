@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#Nav{
+    background-color: #A0D683;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+    #Nav > img{
+        width: 150px;
+    }
+    #Nav > h2{
+        color: azure;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    #Nav > nav{
+        background-color: #347928;
+        padding: 20px;
+        border-top-left-radius: 50px;
+    }
+    #Nav > nav > a{
+        text-decoration: none;
+        margin: 5px;
+        color: white;
+    }
