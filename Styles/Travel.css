@@ -32,3 +32,38 @@
         margin: 5px;
         color: white;
     }
+
+
+
+
+
+    @media all and (max-width:500px){
+        #Nav{
+            display: none;
+        }
+    }
+
+    @media all and (min-width:500px){
+        .navM{
+            display: none;
+        }
+    }
+
+ 
+.container-fluid{
+    background-color: #A0D683;
+}
+
+#head{
+    color: azure;
+    text-shadow: 2px 2px 5px black;
+}
+
+@media screen and (max-width: 440px) {
+
+    #head{
+        font-size: 20px;
+    }
+
+
+  }  
