@@ -47,6 +47,7 @@
         .navM{
             display: none;
         }
+
     }
 
  
@@ -59,11 +60,39 @@
     text-shadow: 2px 2px 5px black;
 }
 
-@media screen and (max-width: 440px) {
+.CA{
+    background-color: #DEAA79;
+}
 
-    #head{
-        font-size: 20px;
-    }
+#CAhead{
+    color: #3D3BF3;
+    text-shadow: 2px 2px 5px white ;
+    font-weight: bold;
+}
+
+#CApara{
+    color: white;
+    font-size: 17px;
+}
+
+.CB{
+    background-color: #FFE6A9;
+}
+
+#CBh2{
+    color:#3D3BF3 ;
+    text-shadow: 2px 2px 5px white ;
+    font-weight: bold;
+}
+
+.CBh4{
+    color: #6892D5;
+}
+
+.CBpara{
+    color: black;
+}
 
 
-  }  
+
+
