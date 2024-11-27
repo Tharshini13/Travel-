@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 
 #Nav{
     background-color: #A0D683;
@@ -37,19 +41,6 @@
 
 
 
-    @media all and (max-width:500px){
-        #Nav{
-            display: none;
-        }
-    }
-
-    @media all and (min-width:500px){
-        .navM{
-            display: none;
-        }
-
-    }
-
  
 .container-fluid{
     background-color: #A0D683;
@@ -77,6 +68,7 @@
 
 .CB{
     background-color: #FFE6A9;
+    
 }
 
 #CBh2{
@@ -93,6 +85,55 @@
     color: black;
 }
 
+.CC{
+    background-color: #F6F7C4;
+    height:160px
+}
+#CCh4{
+    text-align: center;
+}
+
+#footer > img{
+    height: 40px;
+    position: relative;
+    left: 690px;
+    padding-top: 10px;
+}
+#footer > p{
+
+    padding-top: 15px;
+    font-size: 15px;
+}
+#footer > p{
+    text-align: center;
+    font-size: 15px;
+}
 
 
 
+
+
+@media all and (max-width:500px){
+    #Nav{
+        display: none;
+    }
+    #txt{
+        position: relative;
+        top: 220px;
+    }
+    .CB{
+        min-height: 700px;
+    }
+    #footer > img{
+        position: relative;
+        right:660px;
+    }
+}
+
+@media all and (min-width:500px){
+    .navM{
+        display: none;
+    }
+
+
+}
